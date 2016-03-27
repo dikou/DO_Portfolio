@@ -1,0 +1,13 @@
+{%extends "templates/base.html" %}
+	
+		{% block header %}
+		<h1>Diana Oum</h1>
+		<h3>Works</h3>
+		{% endblock %}
+	
+	{% block content %}
+	<img src="static/BirthofBeginnings.jpg" width=400 height=400 alt="oil painting">
+	<p>
+		This is where I plan to put my projects, sketches, and artwork.  Will most likely have old works since I haven't made anything recent.  This section could change depending if I can find anything I'd actually like to share...  The current photo I have in this section is an oil painting from high school.
+	</p>
+	{% endblock %}

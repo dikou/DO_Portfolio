@@ -1,0 +1,12 @@
+{%extends "templates/base.html" %}
+
+		{% block header %}
+		<h1>Diana Oum</h1>
+		<h3>About</h3>
+		{% endblock %}
+
+	{% block content %}
+	<img src="static/IMG_7696.jpg" width=300 height=400 alt="photo of me">
+	<p>
+		I'm a sophomore, currently undeclared in LSA but hopefully User Experience Design track through BSI.  Aspiring to create meaningful products for people. In this section, I will most likely add my resume.   </p>
+	{% endblock %}
