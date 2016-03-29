@@ -1,8 +1,7 @@
 {%extends "templates/base.html" %}
 
 		{% block header %}
-		<h1>Diana Oum</h1>
-		<h3>About</h3>
+		<h1>About</h1>
 		{% endblock %}
 
 	{% block content %}
