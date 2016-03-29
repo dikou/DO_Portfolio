@@ -14,47 +14,47 @@
  		<ul id="photo-gallery">
     		<li>
     			<a href="static/birthofbeginnings.jpg">
-        		<img src="static/birthofbeginnings.jpg" alt="abstract oil painting">
+        		<img src="static/birthofbeginnings.jpg" alt="abstract oil painting" width="50px" height="117px">
         		</a>
    			</li>
     		<li>
     			<a href="static/creation.jpg">
-        		<img src="static/creation.jpg" alt="pastel artwork">
+        		<img src="static/creation.jpg" alt="pastel artwork" width="50px" height="117px">
         		</a>
     		</li>
     		<li>
     			<a href="static/cutshort.jpg">
-  				<img src="static/cutshort.jpg" alt="mixed media painting">
+  				<img src="static/cutshort.jpg" alt="mixed media painting" width="50px" height="117px">
     			</a>
     		</li>
     		<li>
     			<a href="static/discrepancy.jpg">
-        		<img src="static/discrepancy.jpg">
+        		<img src="static/discrepancy.jpg" width="50px" height="117px">
         		</a>
     		</li>
     		<li>
     			<a href="static/misunderstood.jpg">
-        		<img src="static/misunderstood.jpg">
+        		<img src="static/misunderstood.jpg" width="50px" height="117px">
         		</a>
     		</li>
     		<li>
     			<a href="static/paradise.jpg">
-        		<img src="static/paradise.jpg">
+        		<img src="static/paradise.jpg" width="50px" height="117px">
         		</a>
 			</li>
     		<li>
     			<a href="static/prayer.jpg">
-        		<img src="static/prayer.jpg">
+        		<img src="static/prayer.jpg" width="50px" height="117px">
         		</a>
     		</li>
     		<li>
     			<a href="static/reflection.jpg">
-      			<img src="static/reflection.jpg">
+      			<img src="static/reflection.jpg" width="50px" height="117px">
       			</a>
     		</li>
     		<li>
     			<a href="static/spiritofgod.jpg">
-        		<img src="static/spiritofgod.jpg">
+        		<img src="static/spiritofgod.jpg" width="50px" height="117px">
         		</a>
     		</li>
   		</ul>
