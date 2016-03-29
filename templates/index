@@ -8,7 +8,7 @@
 	{% block content %}
 	<img src="static/IMG_1911.JPG" width=250 height=300 alt="winter photo of Mason Hall">
 	<p>
-		Born and raised in the sunshine state but decided to live in the snow for college.  Hoping to enroll in the School of Information during the fall of 2016.  Interested in the intersection between art and tech.
+		Welcome!
 	</p>
 	{% endblock %}
 
