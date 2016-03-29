@@ -27,29 +27,15 @@
 		Header should change
 		{% endblock %}
 
-<nav>
+<nav class="navbar container" role="navigation">
 <ul class="nav nav-tabs nav-justified">
-  <li class="active"><a data-toggle="tab" href="index">Home</a></li>
-  <li><a data-toggle="tab" href="about">About</a></li>
-  <li><a data-toggle="tab" href="artwork">Artwork</a></li>
-  <li><a data-toggle="tab" href="experience">Experience</a></li>
+  <li><a href="index" id="currentpage">Home</a></li>
+  <li><a href="about">About</a></li>
+  <li><a href="artwork">Artwork</a></li>
+  <li><a href="experience">Experience</a></li>
 </ul>
 </nav>
 
-<div class="tab-content">
-  <div id="home" class="tab-pane fade in active">
-    <h3>HOME</h3>
-    <p>Some content.</p>
-  </div>
-  <div id="about" class="tab-pane fade">
-    <h3>Menu 1</h3>
-    <p>Some content in menu 1.</p>
-  </div>
-  <div id="artwork" class="tab-pane fade">
-    <h3>Menu 2</h3>
-    <p>Some content in menu 2.</p>
-  </div>
-</div>
 		
 	</header>
 

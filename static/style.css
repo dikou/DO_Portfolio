@@ -20,18 +20,19 @@ a {
 	color:#3F3F3F;
 }
 
+.nav {
+	color: #7F7F7F;
+}
 
-
-
+#current {
+	color: #000000;
+}
 
 .carousel{
 	margin: auto;
 	width: 50%;
 	height: 100%;
 }
-
-
-
 
 
 footer {
@@ -55,3 +56,6 @@ footer p {
     height: 3%;
     position: inline;
 }
+
+@media screen and (min-width: 800px) {
+	}
