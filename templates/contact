@@ -1,16 +1,11 @@
 {%extends "templates/base.html" %}
 
 {% block header %}
-	<h1>Contact</h1>
-	
+	<h1>Submitted!</h1>
 {% endblock %}
 
 {% block content %}
-
-      <form method="post" action="/contact">
-      <label>Username: <input type="text" id="username" name="username"/></label> <br/>
-      <labeL>Password: <input type="password" id="password" name="password"/></label> <br/>
-      <input type="submit" value="Submit"/> 
-      </form>
-     
+      <p>
+      Success!
+      </p>
 {% endblock %}
