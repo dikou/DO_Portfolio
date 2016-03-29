@@ -11,10 +11,8 @@ body {
 
 h1 {
 	text-align: center;
-}
-
-h3 {
-	text-align: center;
+	font-family: Courier;
+	font-size: 18px;
 }
 
 a {
