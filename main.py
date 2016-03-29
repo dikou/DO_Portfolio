@@ -35,8 +35,10 @@ class MainHandler(webapp2.RequestHandler):
                 self.response.write(template.render({'title': 'HOME'}))
             elif path == "/about":
                 self.response.write(template.render({'title': 'ABOUT'}))
-            elif path == "/works":
-                self.response.write(template.render({'title': 'WORKS'}))
+            elif path == "/artwork":
+                self.response.write(template.render({'title': 'ARTWORK'}))
+            elif path == "/experience":
+                self.response.write(template.render({'title': 'EXPERIENCE'}))
         except:
             template = JINJA_ENVIRONMENT.get_template('templates/index')
             self.response.write(template.render({'title': 'HOME'}))

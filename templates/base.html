@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	
 	<link rel="stylesheet" href="static/default.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -11,19 +12,22 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
 	<link rel="stylesheet" href="static/style.css">
+	
 	<title> Diana Oum - {{title}} </title>
 </head>
 <body>
 	<header>
 		{% block header %}
-		Heading should change
+		Header should change
 		{% endblock %}
 
 			<nav>
 			<a href = "index">{% if title == 'HOME' %}{{title}}{% else %}Home{% endif %}</a> 
 			<a href = "about">{% if title == 'ABOUT' %}{{title}}{% else %}About{% endif %}</a>
-			<a href = "works">{% if title == 'PROJECTS' %}{{title}}{% else %}Works{% endif %}</a>
+			<a href = "artwork">{% if title == 'PROJECTS' %}{{title}}{% else %}Artwork{% endif %}</a>
+			<a href = "experience">{% if title == 'EXPERIENCE' %}{{title}}{% else %}Experience{% endif %}</a>
 			</nav>
 	</header>
 

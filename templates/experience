@@ -1,0 +1,14 @@
+{%extends "templates/base.html" %}
+
+		{% block header %}
+		<h1>Diana Oum</h1>
+		<h3>Experience</h3>
+		{% endblock %}
+
+	{% block content %}
+	<img src="static/me.jpg" width=300 height=400 alt="photo of me">
+	<p>
+		Skills and experience
+
+		</p>
+	{% endblock %}

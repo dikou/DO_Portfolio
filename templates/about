@@ -6,7 +6,11 @@
 		{% endblock %}
 
 	{% block content %}
-	<img src="static/IMG_7696.jpg" width=300 height=400 alt="photo of me">
+	<img src="static/me.jpg" width=300 height=400 alt="photo of me">
 	<p>
-		I'm a sophomore, currently undeclared in LSA but hopefully User Experience Design track through BSI.  Aspiring to create meaningful products for people. In this section, I will most likely add my resume.   </p>
+		My name is Diana and I'm a junior pursuing a Bachelor of Science in Information at the University of Michigan School of Information.  I'm currently interested in focusing my studies on User Experience Design. 
+
+		I was born and raised in the Sunshine State.  I'm proud to be from Gainesville, home of the University of Florida Gators, but I ultimately bleed maize and blue.
+
+		</p>
 	{% endblock %}
