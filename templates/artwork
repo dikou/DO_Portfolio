@@ -6,8 +6,57 @@
 		{% endblock %}
 	
 	{% block content %}
-	<img src="static/birthofbeginnings.jpg" width=400 height=400 alt="oil painting">
 	<p>
 		This is where I plan to put my projects, sketches, and artwork.  Will most likely have old works since I haven't made anything recent.  This section could change depending if I can find anything I'd actually like to share...  The current photo I have in this section is an oil painting from high school.
 	</p>
+
+	<div id="photos">
+ 		<ul id="photo-gallery">
+    		<li>
+    			<a href="static/birthofbeginnings.jpg">
+        		<img src="static/birthofbeginnings.jpg" alt="abstract oil painting">
+        		</a>
+   			</li>
+    		<li>
+    			<a href="static/creation.jpg">
+        		<img src="static/creation.jpg" alt="pastel artwork">
+        		</a>
+    		</li>
+    		<li>
+    			<a href="static/cutshort.jpg">
+  				<img src="static/cutshort.jpg" alt="mixed media painting">
+    			</a>
+    		</li>
+    		<li>
+    			<a href="static/discrepancy.jpg">
+        		<img src="static/discrepancy.jpg">
+        		</a>
+    		</li>
+    		<li>
+    			<a href="static/misunderstood.jpg">
+        		<img src="static/misunderstood.jpg">
+        		</a>
+    		</li>
+    		<li>
+    			<a href="static/paradise.jpg">
+        		<img src="static/paradise.jpg">
+        		</a>
+			</li>
+    		<li>
+    			<a href="static/prayer.jpg">
+        		<img src="static/prayer.jpg">
+        		</a>
+    		</li>
+    		<li>
+    			<a href="static/reflection.jpg">
+      			<img src="static/reflection.jpg">
+      			</a>
+    		</li>
+    		<li>
+    			<a href="static/spiritofgod.jpg">
+        		<img src="static/spiritofgod.jpg">
+        		</a>
+    		</li>
+  		</ul>
+	</div>
 	{% endblock %}
