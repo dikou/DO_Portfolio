@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
 	text-align: center;
-	background-color: #E4E4E4;
+	background-image: url("background.png");
+	margin: 0 0 100px; /* bottom = footer height */
 }
 
 h1 {
@@ -64,4 +70,16 @@ ul {
 
 #photo-gallery {
   width: 100%;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+footer p {
+	margin-top: 75px;
 }
