@@ -22,16 +22,35 @@
 </head>
 <body>
 	<header>
+	
 		{% block header %}
 		Header should change
 		{% endblock %}
 
-			<nav>
-			<a href = "index">{% if title == 'HOME' %}{{title}}{% else %}Home{% endif %}</a> 
-			<a href = "about">{% if title == 'ABOUT' %}{{title}}{% else %}About{% endif %}</a>
-			<a href = "artwork">{% if title == 'ARTWORK' %}{{title}}{% else %}Artwork{% endif %}</a>
-			<a href = "experience">{% if title == 'EXPERIENCE' %}{{title}}{% else %}Experience{% endif %}</a>
-			</nav>
+<nav>
+<ul class="nav nav-tabs nav-justified">
+  <li class="active"><a data-toggle="tab" href="index">Home</a></li>
+  <li><a data-toggle="tab" href="about">About</a></li>
+  <li><a data-toggle="tab" href="artwork">Artwork</a></li>
+  <li><a data-toggle="tab" href="experience">Experience</a></li>
+</ul>
+</nav>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>HOME</h3>
+    <p>Some content.</p>
+  </div>
+  <div id="about" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="artwork" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
+		
 	</header>
 
 {% block content %}
