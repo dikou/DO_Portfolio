@@ -24,6 +24,8 @@
   	<link href="static/css/lightbox.css" rel="stylesheet">
 
   	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
 	
 	<title> Diana Oum - {{title}} </title>
 </head>
@@ -51,13 +53,13 @@
 {% endblock %}
 
 	<footer>
-		 <p>
+		<p>
 			<a href = "https://twitter.com/_dikou"><img class="socialmedia" src="static/twitter.png" alt="twitter logo"></a>
 			<a href = "https://www.linkedin.com/in/dianaoum"><img class="socialmedia" src="static/linkedin.png" alt="linkedin logo"></a>
 			<a href = "https://www.facebook.com/diana.oum3"><img class="socialmedia" src="static/facebook.png" alt="facebook logo"></a>
 			<a href = "https://www.instagram.com/_dikou/"><img class="socialmedia" src="static/instagram.png" alt="instagram logo"></a>
-
-			Copyright &copy; Diana Oum.</p>
+		</p>
+		<p id="copyright">Copyright &copy; Diana Oum.</p>
 	</footer>
 	
 <script src="static/js/lightbox.js"></script>
@@ -80,6 +82,14 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 		scrollTop: 0
 	}, 700);
 	return false;
+});
+
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
 });
 </script>
 
