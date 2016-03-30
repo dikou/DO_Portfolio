@@ -6,7 +6,7 @@
 	
 	{% block content %}
 	<p>
-		In high school, I created an art portfolio during my senior year.  I like using bold colors and geometric shapes.  I don't make art anymore but would like to start again.
+		In high school, I created an art portfolio during my senior year.  I like using bold colors and geometric shapes.  I don't make art anymore but would like to start again.  All of the artwork you see here are thumbnail versions of the original work.  Send me a <a href="contact">message</a> if you'd like to see the full version.
 	</p>
 
 
