@@ -2,11 +2,13 @@
 
 
 	{% block content %}
-	<img src="static/me.jpg" alt="photo of me">
-	<p>
+	<div class="aboutme">
+		<img id="aboutme-img" src="static/me.jpg" alt="photo of me" class="grayscale">
+		<p id="aboutme-text">
 		My name is Diana and I'm a junior pursuing a Bachelor of Science in Information at the University of Michigan School of Information.  I'm currently interested in focusing my studies on User Experience Design. 
 
 		I was born and raised in the Sunshine State.  I'm proud to be from Gainesville, home of the University of Florida Gators, but I ultimately bleed maize and blue.
 
 		</p>
+	</div>
 	{% endblock %}

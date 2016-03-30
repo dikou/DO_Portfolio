@@ -79,15 +79,15 @@
 
 <!-- Lightbox -->
 <div class="lightbox-photogallery">
-<a class = "lightbox-image-link" href="static/birthofbeginnings.jpg" data-lightbox="artwork" data-title="caption"><img src="static/birthofbeginnings.jpg" alt="abstract oil painting"></a>
-<a class = "lightbox-image-link" href="static/creation.jpg" data-lightbox="artwork"><img src="static/creation.jpg" alt="pastel artwork"></a>
-<a class = "lightbox-image-link" href="static/cutshort.jpg" data-lightbox="artwork"><img src="static/cutshort.jpg" alt="mixed media painting"></a>
-<a class = "lightbox-image-link" href="static/discrepancy.jpg" data-lightbox="artwork"><img src="static/discrepancy.jpg" alt="abstract painting"></a>
-<a class = "lightbox-image-link" href="static/misunderstood.jpg" data-lightbox="artwork"> <img src="static/misunderstood.jpg" alt="mixed media painting"></a>
-<a class = "lightbox-image-link" href="static/paradise.jpg" data-lightbox="artwork"><img src="static/paradise.jpg" alt="charcoal and pastel artwork"></a>
-<a class = "lightbox-image-link" href="static/prayer.jpg" data-lightbox="artwork"><img src="static/prayer.jpg" alt="pastel artwork"></a>
-<a class = "lightbox-image-link" href="static/reflection.jpg" data-lightbox="artwork"><img src="static/reflection.jpg" alt="ink print artwork"></a>
-<a class = "lightbox-image-link" href="static/spiritofgod.jpg" data-lightbox="artwork"><img src="static/spiritofgod.jpg" alt="pastel artwork"></a>
+<a class = "lightbox-image-link grayscale" href="static/birthofbeginnings.jpg" data-lightbox="artwork" data-title="caption"><img src="static/birthofbeginnings.jpg" alt="abstract oil painting"></a>
+<a class = "lightbox-image-link grayscale" href="static/creation.jpg" data-lightbox="artwork"><img src="static/creation.jpg" alt="pastel artwork"></a>
+<a class = "lightbox-image-link grayscale" href="static/cutshort.jpg" data-lightbox="artwork"><img src="static/cutshort.jpg" alt="mixed media painting"></a>
+<a class = "lightbox-image-link grayscale" href="static/discrepancy.jpg" data-lightbox="artwork"><img src="static/discrepancy.jpg" alt="abstract painting"></a>
+<a class = "lightbox-image-link grayscale" href="static/misunderstood.jpg" data-lightbox="artwork"> <img src="static/misunderstood.jpg" alt="mixed media painting"></a>
+<a class = "lightbox-image-link grayscale" href="static/paradise.jpg" data-lightbox="artwork"><img src="static/paradise.jpg" alt="charcoal and pastel artwork"></a>
+<a class = "lightbox-image-link grayscale" href="static/prayer.jpg" data-lightbox="artwork"><img src="static/prayer.jpg" alt="pastel artwork"></a>
+<a class = "lightbox-image-link grayscale" href="static/reflection.jpg" data-lightbox="artwork"><img src="static/reflection.jpg" alt="ink print artwork"></a>
+<a class = "lightbox-image-link grayscale" href="static/spiritofgod.jpg" data-lightbox="artwork"><img src="static/spiritofgod.jpg" alt="pastel artwork"></a>
 </div>
 
 	{% endblock %}
