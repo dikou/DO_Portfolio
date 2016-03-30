@@ -70,6 +70,7 @@ img {
 .lightbox-image-link img {
 	width: 30%;
 	margin: 0 auto;
+	padding: 10px;
 
 }
 
@@ -161,7 +162,7 @@ footer p {
 	border-radius: 50%;
 	width: 8%;
 	height: 8%;
-	margin: 0 auto;
+	margin: 10px;
 }
 
 .navbar-container {
