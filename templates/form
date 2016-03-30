@@ -4,9 +4,11 @@
 {% block content %}
 
       <form method="post" action="/contact">
-      <label>Username: <input type="text" id="username" name="username"/></label> <br/>
-      <labeL>Password: <input type="password" id="password" name="password"/></label> <br/>
-      <input type="submit" value="Submit"/> 
+      <label>Name: <input type="text" id="name" name="name" placeholder="Name"/></label> <br/>
+      <labeL>Email: <input type="email" id="email" name="email" placeholder="hello@email.com"/></label> <br/>
+      <labeL>Message: <textarea id="message" name="message" placeholder="What's on your mind?"/></textarea></label> <br/>
+      <input type="submit" value="SEND" id="button-gray"/> 
+      <div class="ease"></div>
       </form>
      
 {% endblock %}
