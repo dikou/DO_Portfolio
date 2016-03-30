@@ -28,18 +28,18 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 class ContactHandler(webapp2.RequestHandler):
     def get(self):
         template = JINJA_ENVIRONMENT.get_template('templates%s' % '/form')
-        self.response.write(template.render({'title': 'LOGIN'}))
+        self.response.write(template.render({'title': 'CONTACT'}))
 
     def post(self):
         user = self.request.get('username')
         pw = self.request.get('password')
         if pw == 'pass' and user == 'Colleen':
             template = JINJA_ENVIRONMENT.get_template('templates%s' % '/contact')
-            self.response.write(template.render({'title': 'LOGIN'}))
+            self.response.write(template.render({'title': 'CONTACT'}))
         else:
             logging.info('Invalid credentials: user='+user+' pw='+pw)
             template = JINJA_ENVIRONMENT.get_template('templates%s' % '/form')
-            self.response.write(template.render({'title': 'LOGIN'}))
+            self.response.write(template.render({'title': 'CONTACT'}))
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
