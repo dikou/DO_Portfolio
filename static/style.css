@@ -33,6 +33,22 @@ img {
 	margin: 10px;
 }
 
+#logo:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+
+#description {
+	font-family: Arial;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	color: #7F7F7F;
+	margin: 10px 10px 10px 0px;
+	padding: 40px 40px 40px 0px;
+	opacity: 0.5;
+}
+
 
 .navbar-container {
 	display: inline;
@@ -87,7 +103,7 @@ footer p {
 @media only screen and (max-width: 480px) {
 
 #logo {
-	display: block;
+	display: inline-block;
 	border-radius: 50%;
 	width: 10%;
 	height: 10%;
@@ -103,8 +119,36 @@ footer p {
 .carousel {
 	display: block;
 	margin: 0 auto;
-	width: 50%;
+	width: 100%;
 	height: 100%;
+}
+
+.lightbox-photogallery {
+	display: none;
+}
+
+
+footer {
+	position: fixed;
+	left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #7F7F7F;
+}
+
+footer p {
+	display: block;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-family: Courier;
+}
+
+
+.socialmedia {
+    width: 3%;
+    height: 3%;
+    position: block;
 }
 
 }
@@ -117,7 +161,7 @@ footer p {
 	border-radius: 50%;
 	width: 8%;
 	height: 8%;
-	margin: 10px;
+	margin: 0 auto;
 }
 
 .navbar-container {
@@ -131,6 +175,33 @@ footer p {
 	margin: 0 auto;
 	width: 50%;
 	height: 100%;
+}
+
+.lightbox-photogallery {
+	display: none;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #7F7F7F;
+}
+
+footer p {
+	display: block;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-family: Courier;
+}
+
+
+.socialmedia {
+    width: 5%;
+    height: 5%;
+    position: inline;
 }
 
 }
