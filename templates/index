@@ -4,7 +4,7 @@
 	{% block content %}
 	<img src="static/home.jpg" alt="black and white photo from NYC trip">
 	<p>
-		Welcome!
+		Welcome to my online space!  My name is Diana.  
 	</p>
 	{% endblock %}
 
