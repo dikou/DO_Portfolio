@@ -28,10 +28,8 @@ a {
 	color: #000000;
 }
 
-.carousel{
-	margin: auto;
-	width: 50%;
-	height: 100%;
+.carousel {
+	display: none;
 }
 
 
@@ -57,5 +55,29 @@ footer p {
     position: inline;
 }
 
-@media screen and (min-width: 800px) {
-	}
+
+/* ---- MOBILE VIEW ---- */
+
+@media only screen and (max-width: 480px) {
+
+.carousel {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 100%;
+}
+
+}
+
+/* ---- TABLET VIEW ---- */
+
+@media only screen and (max-width: 720px) {
+
+.carousel {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 100%;
+}
+
+}
