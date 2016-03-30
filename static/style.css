@@ -4,7 +4,6 @@ html {
 }
 
 body {
-	text-align: center;
 	background-image: url("background.png");
 	margin: 0 0 50px; /* bottom = footer height */
 }
@@ -31,15 +30,16 @@ img {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url(grayscale.svg); /* Firefox 4+ */
+  filter: grayscale(0.5)
   filter: gray; /* IE 6-9 */
 }
 
 
 #logo {
 	border-radius: 50%;
-	width: 10%;
-	height: 10%;
+	width: 15%;
+	height: 15%;
+	margin: 30px;
 }
 
 #logo:hover {
@@ -62,9 +62,17 @@ img {
 	color: #000000;
 }
 
-.aboutme {
+form {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:35px;
 	width: 50%;
-	margin: 0 auto;
+	text-align: center;
+	margin: 50px auto;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
 /* back to top button */
@@ -99,6 +107,7 @@ a.back-to-top {
 }
 
 footer {
+	text-align: center;
 	position: absolute;
 	left: 0;
     bottom: 0;
@@ -124,12 +133,14 @@ footer p {
     position: inline;
 }
 
+/* skill bar */
+
 .skillbar {
 	position:relative;
 	display:block;
 	margin-bottom:15px;
 	width:100%;
-	background:#eee;
+	background: #BFBFBF;
 	height:35px;
 	border-radius:3px;
 	-moz-border-radius:3px;
@@ -150,7 +161,7 @@ footer p {
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+	width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -180,7 +191,7 @@ width:110px;
 .skillbar-bar {
 	height:35px;
 	width:0px;
-	background:#6adcfa;
+	background: #6adcfa;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -194,7 +205,6 @@ width:110px;
 	height:35px;
 	line-height:35px;
 	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
 }
 
 
@@ -206,16 +216,21 @@ width:110px;
 
 body {
 	background-image: url("tabletbackground.jpg");
+	margin: 0 0 100px; /* bottom = footer height */
+}
+
+h1 {
+	text-align: left;
 }
 
 #logo {
 	border-radius: 50%;
-	width: 15%;
-	height: 15%;
+	width: 25%;
+	height: 25%;
 }
 
 .navbar-container {
-	position: block;
+	display: block;
 	color: #7F7F7F;
 	margin: 30px;
 }
@@ -233,6 +248,7 @@ body {
 }
 
 footer {
+	text-align: center;
 	position: fixed;
 	left: 0;
     bottom: 0;
@@ -266,12 +282,17 @@ footer p {
 
 body {
 	background-image: url("mobilebackground.png");
+	margin: 0 0 150px; /* bottom = footer height */
+}
+
+h1 {
+	text-align: center;
 }
 
 #logo {
 	border-radius: 50%;
-	width: 25%;
-	height: 25%;
+	width: 35%;
+	height: 35%;
 	margin: 5%;
 }
 
@@ -295,6 +316,7 @@ body {
 
 
 footer {
+	text-align: center;
 	position: fixed;
 	left: 0;
     bottom: 0;
