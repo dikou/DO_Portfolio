@@ -1,8 +1,5 @@
 {%extends "templates/base.html" %}
 
-		{% block header %}
-		<h1>Home</h1>
-		{% endblock %}
 
 	{% block content %}
 	<img src="static/home.jpg" alt="black and white photo from NYC trip">
