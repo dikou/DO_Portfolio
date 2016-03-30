@@ -1,11 +1,9 @@
 {%extends "templates/base.html" %}
 
-		{% block header %}
-		<h1>Experience</h1>
-		{% endblock %}
+
 
 	{% block content %}
-	<img src="static/me.jpg" width=300 height=400 alt="photo of me">
+	<img src="static/me.jpg" alt="photo of me">
 	<p>
 		Skills and experience
 		<progress value="70" max="100"></progress>

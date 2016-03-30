@@ -1,11 +1,8 @@
 {%extends "templates/base.html" %}
 
-		{% block header %}
-		<h1>About</h1>
-		{% endblock %}
 
 	{% block content %}
-	<img src="static/me.jpg" width=300 height=400 alt="photo of me">
+	<img src="static/me.jpg" alt="photo of me">
 	<p>
 		My name is Diana and I'm a junior pursuing a Bachelor of Science in Information at the University of Michigan School of Information.  I'm currently interested in focusing my studies on User Experience Design. 
 

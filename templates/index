@@ -5,7 +5,7 @@
 		{% endblock %}
 
 	{% block content %}
-	<img src="static/IMG_1911.JPG" width=250 height=300 alt="winter photo of Mason Hall">
+	<img src="static/home.jpg" alt="black and white photo from NYC trip">
 	<p>
 		Welcome!
 	</p>

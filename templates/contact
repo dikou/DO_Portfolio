@@ -1,8 +1,8 @@
 {%extends "templates/base.html" %}
 
-{% block header %}
+
 	<h1>Submitted!</h1>
-{% endblock %}
+
 
 {% block content %}
       <p>

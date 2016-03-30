@@ -1,9 +1,5 @@
 {%extends "templates/base.html" %}
 
-{% block header %}
-	<h1>Contact</h1>
-	
-{% endblock %}
 
 {% block content %}
 
