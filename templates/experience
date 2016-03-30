@@ -3,10 +3,12 @@
 
 
 	{% block content %}
-	<img src="static/me.jpg" alt="photo of me">
 	<p>
-		Skills and experience
-		<progress value="70" max="100"></progress>
+		Skills
+		<p>Korean (50%) <progress value="50" max="100"></progress></p>
+		<p>Korean <progress value="50" max="100"></progress></p>
+		<p>Korean <progress value="50" max="100"></progress></p>
+		<p>Korean <progress value="50" max="100"></progress></p>
 
 		</p>
 	{% endblock %}
