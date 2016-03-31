@@ -5,7 +5,7 @@ html {
 
 body {
 	background-image: url("background.png");
-	margin: 0 0 50px; /* bottom = footer height */
+	margin: 0 0 100px; /* bottom = footer height */
 }
 
 h1 {
@@ -58,8 +58,9 @@ img {
 }
 
 
-#current {
+#currentpage {
 	color: #000000;
+	background-color: white;
 }
 
 form {
@@ -74,6 +75,24 @@ form {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
+
+.aboutme {
+	margin: 20px;
+}
+
+#aboutme-img {
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+	margin-bottom: 10%;
+}
+
+#aboutme-text {
+	float: left;
+	width: 49%;
+	margin-bottom: 10%;
+}
+
 
 /* back to top button */
 
@@ -136,12 +155,16 @@ footer p {
 /* skill bar */
 
 .skillbar {
+	margin: 10px auto;
+}
+
+.skillbar {
 	position:relative;
 	display:block;
 	margin-bottom:15px;
-	width:100%;
+	width: 50%;
 	background: #BFBFBF;
-	height:35px;
+	height:20px;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -178,8 +201,8 @@ footer p {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
-	height:35px;
-	line-height:35px;
+	height:20px;
+	line-height:20px;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:3px;
 	-moz-border-radius-topleft:3px;
@@ -189,7 +212,7 @@ footer p {
 }
 
 .skillbar-bar {
-	height:35px;
+	height:20px;
 	width:0px;
 	background: #6adcfa;
 	border-radius:3px;
@@ -202,8 +225,8 @@ footer p {
 	right:10px;
 	top:0;
 	font-size:11px;
-	height:35px;
-	line-height:35px;
+	height:20px;
+	line-height:20px;
 	color:#ffffff;
 }
 
@@ -216,7 +239,6 @@ footer p {
 
 body {
 	background-image: url("tabletbackground.jpg");
-	margin: 0 0 100px; /* bottom = footer height */
 }
 
 h1 {
@@ -227,12 +249,33 @@ h1 {
 	border-radius: 50%;
 	width: 25%;
 	height: 25%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
+
 
 .navbar-container {
 	display: block;
 	color: #7F7F7F;
 	margin: 30px;
+}
+
+#currentpage {
+	background-color: white;
+}
+
+#aboutme-text {
+	display: block;
+	width: 50%;
+	margin: 2% auto;
+	float: none;
+	
+}
+
+#aboutme-img {
+	display: block;
+	width: 50%;
+	margin: 2% auto;
+	float: none;
 }
 
 .carousel {
@@ -294,6 +337,7 @@ h1 {
 	width: 35%;
 	height: 35%;
 	margin: 5%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
 
 
@@ -301,6 +345,21 @@ h1 {
 	display: block;
 	color: #7F7F7F;
 	margin: 30px;
+}
+
+#aboutme-text {
+	display: block;
+	width: 75%;
+	margin: 2% auto;
+	float: none;
+	
+}
+
+#aboutme-img {
+	display: block;
+	width: 75%;
+	margin: 2% auto;
+	float: none;
 }
 
 .carousel {
