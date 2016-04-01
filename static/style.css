@@ -61,6 +61,7 @@ img {
 #currentpage {
 	color: #000000;
 	background-color: white;
+	border-radius: 0px;
 }
 
 form {
@@ -114,7 +115,7 @@ a.back-to-top {
 
 /* lightbox photo gallery */
 
-.carousel {
+#myCarousel {
 	display: none;
 }
 
@@ -278,12 +279,7 @@ h1 {
 	float: none;
 }
 
-.carousel {
-	display: block;
-	margin: 0 auto;
-	width: 50%;
-	height: 100%;
-}
+
 
 
 .lightbox-photogallery {
