@@ -1,16 +1,6 @@
 {%extends "templates/base.html" %}
 	
-{% block nav %}
-<nav class="navbar-container" role="navigation">
-<ul class="nav nav-tabs nav-justified">
-  <li><a href="index">Home</a></li>
-  <li><a href="about">About</a></li>
-  <li><a href="artwork" id="currentpage">Artwork</a></li>
-  <li><a href="experience">Experience</a></li>
-  <li><a href="contact">Contact</a></li>
-</ul>
-</nav>
-{% endblock %}
+
 	
 	{% block content %}
 	<p>

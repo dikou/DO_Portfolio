@@ -1,23 +1,13 @@
 {%extends "templates/base.html" %}
 
 
-{% block nav %}
-<nav class="navbar-container" role="navigation">
-<ul class="nav nav-tabs nav-justified">
-  <li><a href="index">Home</a></li>
-  <li><a href="about">About</a></li>
-  <li><a href="artwork">Artwork</a></li>
-  <li><a href="experience">Experience</a></li>
-  <li><a href="contact" id="currentpage">Contact</a></li>
-</ul>
-</nav>
-{% endblock %}
 
 {% block content %}
 
-      <form method="post" action="/contact">
-      <label>Name: <input type="text" id="name" name="name" placeholder="Name"/></label> <br/>
+      <form onsubmit="return check(this)" method="post" action="/contact">
+      <label>Name: <input type="text" id="sendername" name="sendername" placeholder="Firstname Lastname"/></label> <br/>
       <labeL>Email: <input type="email" id="email" name="email" placeholder="hello@email.com"/></label> <br/>
+      <label>Email Confirm: <input type='email' name = 'emailconfirm' id="emailconfirm" placeholder="hello.email.com"></label>
       <labeL>Message: <textarea id="message" name="message" placeholder="What's on your mind?"/></textarea></label> <br/>
       <input type="submit" value="SEND" id="button-gray"/> 
       <div class="ease"></div>

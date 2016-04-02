@@ -36,8 +36,38 @@
 <h1><img id="logo" src="static/logo.jpg" alt="diana oum logo">
 Diana Oum</h1>
  
-{% block nav %}
-{% endblock %}
+
+
+<nav class="navbar-container" role="navigation">
+<ul class="nav nav-tabs nav-justified">
+  <li tabindex="1"><a href="index" id=
+	{%if title == 'HOME' %}
+	"currentpage"
+	{%endif%}
+	 >Home</a></li>
+  <li><a href="about" id=
+	{%if title == 'ABOUT' %}
+	"currentpage"
+	{%endif%}
+	>About</a></li>
+  <li><a href="artwork" id=
+	{%if title == 'ARTWORK' %}
+	"currentpage"
+	{%endif%}
+  	>Artwork</a></li>
+  <li><a href="experience" id=
+	{%if title == 'EXPERIENCE' %}
+	"currentpage"
+	{%endif%}
+  	>Experience</a></li>
+  <li><a href="contact" id=
+	{%if title == 'CONTACT' %}
+	"currentpage"
+	{%endif%}
+  	>Contact</a></li>
+</ul>
+</nav>
+
 		
 </header>
 
@@ -85,6 +115,8 @@ jQuery(document).ready(function(){
 	});
 });
 </script>
+
+<script src="static/formscript.js"></script>
 
 </body>
 
