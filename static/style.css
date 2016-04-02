@@ -18,11 +18,6 @@ a {
 	font-family: Courier;
 	color:#3F3F3F;
 }
-/*
-img {
-	width: 50%;
-	height: 50%;
-}*/
 
 .grayscale { 
   -webkit-filter: grayscale(100%);
@@ -59,9 +54,18 @@ img {
 
 
 #currentpage {
-	color: #000000;
-	background-color: white;
+	color: white;
+	background-color: #3F3F3F;
 	border-radius: 0px;
+}
+
+.nav-tabs.nav-justified>li>a {
+    border-radius: 0px;
+    color: black;
+}
+
+.nav-tabs.nav-justified>li>a:hover {
+	background-color: white;
 }
 
 form {
@@ -189,7 +193,6 @@ footer p {
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
-	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
 	-moz-border-radius-topleft:3px;
@@ -200,7 +203,6 @@ footer p {
 
 .skillbar-title span {
 	display:block;
-	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
 	height:20px;
 	line-height:20px;
@@ -215,7 +217,7 @@ footer p {
 .skillbar-bar {
 	height:20px;
 	width:0px;
-	background: #6adcfa;
+	background: #525252;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -236,10 +238,11 @@ footer p {
 
 /* ---- TABLET VIEW ---- */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
 
 body {
 	background-image: url("tabletbackground.jpg");
+	margin: 0 0 120px;
 }
 
 h1 {
@@ -286,6 +289,21 @@ h1 {
 	height: 50%;
 }
 
+.carousel-indicators {
+	bottom: -55px;
+}
+
+.carousel-indicators .active {
+	background-color: black;
+	width: 15px;
+	height: 15px;
+}
+
+.carousel-indicators li {
+	border: 2px solid black;
+	width: 15px;
+	height: 15px;
+}
 
 .lightbox-photogallery {
 	display: none;
@@ -327,7 +345,7 @@ footer p {
 
 body {
 	background-image: url("mobilebackground.png");
-	margin: 0 0 150px; /* bottom = footer height */
+	margin: 0 0 170px; /* bottom = footer height */
 }
 
 h1 {
@@ -367,12 +385,24 @@ h1 {
 #myCarousel {
 	display: block;
 	margin: 0 auto;
-	width: 50%;
-	height: 50%;
+	width: 80%;
+	height: 80%;
 }
 
 #myCarousel .item img{
 	margin: 0 auto;
+}
+
+.carousel-indicators {
+	bottom: -60px;
+}
+
+.carousel-indicators .active {
+	background-color: black;
+}
+
+.carousel-indicators li {
+	border: 2px solid black;
 }
 
 .lightbox-photogallery {
