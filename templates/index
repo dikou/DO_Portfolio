@@ -3,7 +3,7 @@
 
 
 	{% block content %}
-	<div class="home">
+	<div id="home">
 		<img id="home-img" src="static/me.jpg" alt="photo of me" class="grayscale">
 		<p id="home-text">
 		<b>Welcome to my online space!</b><br>  My name is Diana and I'm a junior pursuing a Bachelor of Science in Information at the University of Michigan School of Information.  I'm currently interested in focusing my studies on User Experience Design. 
