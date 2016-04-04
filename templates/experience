@@ -3,41 +3,44 @@
 
 
 	{% block content %}
+	<p id="work"> I currently work at the University of Michigan Library as a Stacks Assistant.  Previously, I worked at the School of Education as a Media Assistant, transcribing videos for various research projects.  During my freshman year, I worked for the Healthy Minds Coalition as a student research assistant. 
+	<h3>Programming</h3>
 	<div class="skills">
-	<div class="skillbar clearfix" data-percent="20%">
+	<div class="skillbar clearfix" data-percent="90%">
 	<div class="skillbar-title"><span>HTML5</span></div>
 	<div class="skillbar-bar"></div>
-	<div class="skill-bar-percent">20%</div>
+	<div class="skill-bar-percent">90%</div>
 	</div> 
 
-	<div class="skillbar clearfix" data-percent="25%">
+	<div class="skillbar clearfix" data-percent="90%">
 	<div class="skillbar-title"><span>CSS3</span></div>
 	<div class="skillbar-bar"></div>
-	<div class="skill-bar-percent">25%</div>
-	</div> 
-
-	<div class="skillbar clearfix" data-percent="50%">
-	<div class="skillbar-title"><span>jQuery</span></div>
-	<div class="skillbar-bar"></div>
-	<div class="skill-bar-percent">50%</div>
+	<div class="skill-bar-percent">90%</div>
 	</div> 
 
 	<div class="skillbar clearfix" data-percent="40%">
-	<div class="skillbar-title"><span>PHP</span></div>
+	<div class="skillbar-title"><span>Javascript</span></div>
 	<div class="skillbar-bar"></div>
 	<div class="skill-bar-percent">40%</div>
 	</div> 
 
+	<div class="skillbar clearfix" data-percent="80%">
+	<div class="skillbar-title"><span>Python</span></div>
+	<div class="skillbar-bar"></div>
+	<div class="skill-bar-percent">80%</div>
+	</div> 
+
+	<h3>Design</h3>
 	<div class="skillbar clearfix" data-percent="75%">
-	<div class="skillbar-title"><span>Wordpress</span></div>
+	<div class="skillbar-title"><span>InDesign</span></div>
 	<div class="skillbar-bar"></div>
 	<div class="skill-bar-percent">75%</div>
 	</div> 
 
-	<div class="skillbar clearfix" data-percent="100%">
-	<div class="skillbar-title"><span>SEO</span></div>
+	<div class="skillbar clearfix" data-percent="75%">
+	<div class="skillbar-title"><span>Illustrator</span></div>
 	<div class="skillbar-bar"></div>
-	<div class="skill-bar-percent">100%</div>
+	<div class="skill-bar-percent">75%</div>
 	</div> 
 
 	<div class="skillbar clearfix" data-percent="70%">
@@ -45,5 +48,19 @@
 	<div class="skillbar-bar"></div>
 	<div class="skill-bar-percent">70%</div>
 	</div> 
+
+	<h3>Language</h3>
+	<div class="skillbar clearfix" data-percent="60%">
+	<div class="skillbar-title"><span>Korean</span></div>
+	<div class="skillbar-bar"></div>
+	<div class="skill-bar-percent">60%</div>
+	</div> 
+
+	<div class="skillbar clearfix" data-percent="40%">
+	<div class="skillbar-title"><span>Spanish</span></div>
+	<div class="skillbar-bar"></div>
+	<div class="skill-bar-percent">40%</div>
+	</div> 
+
 	</div>
 	{% endblock %}
