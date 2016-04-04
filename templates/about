@@ -1,15 +1,33 @@
 {%extends "templates/base.html" %}
 
 
-
 	{% block content %}
-	<div class="aboutme">
-		<img id="aboutme-img" src="static/me.jpg" alt="photo of me" class="grayscale">
-		<p id="aboutme-text">
-		My name is Diana and I'm a junior pursuing a Bachelor of Science in Information at the University of Michigan School of Information.  I'm currently interested in focusing my studies on User Experience Design. 
+	<img id="aboutme-img" src="static/home.jpg" alt="black and white photo from NYC trip">
+	<p>
+		Quick Facts!
+		<ul>
+			<li>2nd Generation Korean American trying to become fluent in Korean</li>
+			<li>20 years old</li>
+			<li>Likes to take photos but doesn't consider herself a photographer
+		(All the photos you see on this site are from my high school senior NYC trip)</li>
+		</ul>
 
-		I was born and raised in the Sunshine State.  I'm proud to be from Gainesville, home of the University of Florida Gators, but I ultimately bleed maize and blue.
+		Travel Destinations
+		Places I want to visit:
+		California
+		Dallas & Austin, Texas
+		Seattle, Washington
+		Chicago, Illinois
+		Europe
+			Italy
+			France
+			UK
 
-		</p>
-	</div>
+		Places I want to re-visit:
+		Las Vegas, Nevada
+		Boston, Massachusetts
+		New York City
+		Princeton, New Jersey
+		Canada   
+	</p>
 	{% endblock %}
