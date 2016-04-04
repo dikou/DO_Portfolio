@@ -11,17 +11,17 @@ body {
 h1 {
 	text-align: center;
 	font-family: Courier;
-	font-size: 24px;
+	font-size: 30px;
 }
 
 h2 {
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
 	font-variant: small-caps;
 }
 
 h3 {
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	border: 2px solid;
 	padding: 10px;
@@ -31,8 +31,14 @@ h3 {
 
 p {
 	text-align: center;
+	font-size: 16px;
 }
 
+.travel {
+	list-style: disc inside;
+	font-size: 16px;
+
+}
 
 .grayscale { 
   -webkit-filter: grayscale(100%);
@@ -97,6 +103,7 @@ form {
 	text-align: center;
 	margin: 10px auto;
   	border-radius: 7px;
+  	font-size: 18px;
 }
 
 .form-input {
@@ -173,7 +180,7 @@ textarea {
 
 #home {
 	margin: 20px auto;
-	width: 50%;
+	width: 55%;
 }
 
 #home-img {
@@ -202,11 +209,11 @@ textarea {
 	float: left;
 }
 
-#aboutme-text {
+.aboutme-text {
 	width: 50%;
 	text-align: left;
 	float: left;
-	margin-bottom: 15%;
+	margin-bottom: 1%;
 }
 
 
@@ -431,12 +438,17 @@ h1 {
 	float: none;
 }
 
-#aboutme-text {
+.aboutme-text {
 	display: block;
 	width: 90%;
-	margin: 2% auto;
+	margin: 10px auto;
 	float: none;
 	
+}
+
+.travel {
+	width: 90%;
+	margin: 20px;
 }
 
 #aboutme {
@@ -581,12 +593,19 @@ h1 {
 	width: 100%;
 }
 
-#aboutme-text {
+.aboutme-text {
 	display: block;
 	width: 75%;
-	margin: 2% auto;
+	margin: 10px auto;
 	float: none;
 	
+}
+
+.travel {
+	list-style: disc inside;
+	font-size: 16px;
+	width: 75%;
+	margin: 60px;
 }
 
 #aboutme-img {
@@ -626,6 +645,10 @@ h1 {
 
 #lightbox-instructions {
 	display: none;
+}
+
+form {
+	font-size: 14px;
 }
 
 footer {
