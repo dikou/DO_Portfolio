@@ -2,32 +2,14 @@
 
 
 	{% block content %}
+	
+	<div id="aboutme">
 	<img id="aboutme-img" src="static/home.jpg" alt="black and white photo from NYC trip">
-	<p>
-		Quick Facts!
-		<ul>
-			<li>2nd Generation Korean American trying to become fluent in Korean</li>
-			<li>20 years old</li>
-			<li>Likes to take photos but doesn't consider herself a photographer
-		(All the photos you see on this site are from my high school senior NYC trip)</li>
-		</ul>
-
-		Travel Destinations
-		Places I want to visit:
-		California
-		Dallas & Austin, Texas
-		Seattle, Washington
-		Chicago, Illinois
-		Europe
-			Italy
-			France
-			UK
-
-		Places I want to re-visit:
-		Las Vegas, Nevada
-		Boston, Massachusetts
-		New York City
-		Princeton, New Jersey
-		Canada   
+	<p id="aboutme-text">
+		I was born in the college town of Gainesville where I grew up with kids who had parents trying to get their PhDs.  Once I finished elementary school, I moved to Saint Augustine, the oldest city in America.  Having lived in sleepy suburbs filled with retirees for so long, I wanted to get out of Florida for my four years in college.  So I came to Ann Arbor to meet new types of people and experience living in snow. 
+		</br>
+		I like creating things but couldn't tell you how I plan to make that desire into a career at this point.    
+		 
 	</p>
+	</div>
 	{% endblock %}
