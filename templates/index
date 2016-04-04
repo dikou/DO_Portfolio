@@ -10,6 +10,8 @@
 
 		I was born and raised in the Sunshine State.  I'm proud to be from Gainesville, home of the University of Florida Gators, but I ultimately bleed maize and blue.
 
+		The accompanying photo is a photo I took of my silhouette at the MoMA in NYC.
+
 		</p>
 	</div>
 	{% endblock %}
