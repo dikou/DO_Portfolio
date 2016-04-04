@@ -5,11 +5,11 @@
 {% block content %}
 
       <form onsubmit="return check(this)" method="post" action="/contact">
-      <label>Name: <input type="text" id="sendername" name="sendername" placeholder="Firstname Lastname"/></label> <br/>
-      <labeL>Email: <input type="email" id="email" name="email" placeholder="hello@email.com"/></label> <br/>
-      <label>Email Confirm: <input type='email' name = 'emailconfirm' id="emailconfirm" placeholder="hello.email.com"></label>
-      <labeL>Message: <textarea id="message" name="message" placeholder="What's on your mind?"/></textarea></label> <br/>
-      <input type="submit" value="SEND" id="button-gray"/> 
+      <label>Name:<input type="text" id="sendername" name="sendername" placeholder="Diana Oum" class="form-input"></label> <br/>
+      <labeL>Email:<input type="email" id="email" name="email" placeholder="hello@email.com" class="form-input"></label> <br/>
+      <label>Confirm Email:<input type='email' name = 'emailconfirm' id="emailconfirm" placeholder="hello.email.com" class="form-input"></label>
+      <labeL>Message:<textarea id="message" name="message" placeholder="What's on your mind?" class="form-input"></textarea></label> <br/>
+      <input type="submit" value="SEND" id="button-gray"> 
       <div class="ease"></div>
       </form>
      
