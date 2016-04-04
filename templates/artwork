@@ -3,11 +3,14 @@
 
 	
 	{% block content %}
-	<p>
-		In high school, I created an art portfolio during my senior year.  I like using bold colors and geometric shapes.  I don't make art anymore but would like to start again.  All of the artwork you see here are thumbnail versions of the original work.  Send me a <a href="contact">message</a> if you'd like to see the full version.
+	
+  <p id="artdescription">
+		In high school, I created an art portfolio during my senior year.  I like using bold colors and geometric shapes.  I don't make art anymore but would like to start again.  All of the artwork you see here are thumbnail versions of the original work.  Send me a <a href="contact" id="messagelink">message</a> if you'd like to see the full version.
 	</p>
 
-
+  <p id="lightbox-instructions">
+  Click on the thumbnail to see it in color!
+  </p>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
   <!-- Indicators -->
@@ -64,6 +67,7 @@
 
   </div>
 
+
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -77,15 +81,15 @@
 
 <!-- Lightbox -->
 <div class="lightbox-photogallery">
-<a class = "lightbox-image-link grayscale" href="static/birthofbeginnings.jpg" data-lightbox="artwork" data-title="caption"><img src="static/birthofbeginnings.jpg" alt="abstract oil painting"></a>
-<a class = "lightbox-image-link grayscale" href="static/creation.jpg" data-lightbox="artwork"><img src="static/creation.jpg" alt="pastel artwork"></a>
-<a class = "lightbox-image-link grayscale" href="static/cutshort.jpg" data-lightbox="artwork"><img src="static/cutshort.jpg" alt="mixed media painting"></a>
-<a class = "lightbox-image-link grayscale" href="static/discrepancy.jpg" data-lightbox="artwork"><img src="static/discrepancy.jpg" alt="abstract painting"></a>
-<a class = "lightbox-image-link grayscale" href="static/misunderstood.jpg" data-lightbox="artwork"> <img src="static/misunderstood.jpg" alt="mixed media painting"></a>
-<a class = "lightbox-image-link grayscale" href="static/paradise.jpg" data-lightbox="artwork"><img src="static/paradise.jpg" alt="charcoal and pastel artwork"></a>
-<a class = "lightbox-image-link grayscale" href="static/prayer.jpg" data-lightbox="artwork"><img src="static/prayer.jpg" alt="pastel artwork"></a>
-<a class = "lightbox-image-link grayscale" href="static/reflection.jpg" data-lightbox="artwork"><img src="static/reflection.jpg" alt="ink print artwork"></a>
-<a class = "lightbox-image-link grayscale" href="static/spiritofgod.jpg" data-lightbox="artwork"><img src="static/spiritofgod.jpg" alt="pastel artwork"></a>
+  <a class = "lightbox-image-link grayscale" href="static/birthofbeginnings.jpg" data-lightbox="artwork" data-title="caption"><img src="static/birthofbeginnings.jpg" alt="abstract oil painting"></a>
+  <a class = "lightbox-image-link grayscale" href="static/creation.jpg" data-lightbox="artwork" data-title="caption"><img src="static/creation.jpg" alt="pastel artwork"></a>
+  <a class = "lightbox-image-link grayscale" href="static/cutshort.jpg" data-lightbox="artwork" data-title="caption"><img src="static/cutshort.jpg" alt="mixed media painting"></a>
+  <a class = "lightbox-image-link grayscale" href="static/discrepancy.jpg" data-lightbox="artwork" data-title="caption"><img src="static/discrepancy.jpg" alt="abstract painting"></a>
+  <a class = "lightbox-image-link grayscale" href="static/misunderstood.jpg" data-lightbox="artwork" data-title="caption"> <img src="static/misunderstood.jpg" alt="mixed media painting"></a>
+  <a class = "lightbox-image-link grayscale" href="static/paradise.jpg" data-lightbox="artwork" data-title="caption"><img src="static/paradise.jpg" alt="charcoal and pastel artwork"></a>
+  <a class = "lightbox-image-link grayscale" href="static/prayer.jpg" data-lightbox="artwork" data-title="caption"><img src="static/prayer.jpg" alt="pastel artwork"></a>
+  <a class = "lightbox-image-link grayscale" href="static/reflection.jpg" data-lightbox="artwork" data-title="caption"><img src="static/reflection.jpg" alt="ink print artwork"></a>
+  <a class = "lightbox-image-link grayscale" href="static/spiritofgod.jpg" data-lightbox="artwork" data-title="caption"><img src="static/spiritofgod.jpg" alt="pastel artwork"></a>
 </div>
 
 	{% endblock %}
