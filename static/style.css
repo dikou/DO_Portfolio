@@ -14,9 +14,27 @@ h1 {
 	font-size: 24px;
 }
 
-a {
-	font-family: Courier;
-	color:#3F3F3F;
+h2 {
+	text-align: center;
+	font-size: 22px;
+	font-variant: small-caps;
+}
+
+h3 {
+	font-size: 14px;
+	text-align: center;
+	border: 2px solid;
+	padding: 10px;
+	margin: 30px auto 10px;
+	width: 50%;
+}
+
+p {
+	text-align: center;
+}
+
+ul {
+	list-style: disc inside;
 }
 
 .grayscale { 
@@ -32,9 +50,9 @@ a {
 
 #logo {
 	border-radius: 50%;
-	width: 15%;
-	height: 15%;
-	margin: 30px;
+	width: 12%;
+	height: 12%;
+	margin: 5px;
 }
 
 #logo:hover {
@@ -68,6 +86,7 @@ a {
 	background-color: white;
 }
 
+
 form {
 	background-color:rgba(72,72,72,0.4);
 	padding-left:35px;
@@ -76,26 +95,76 @@ form {
 	padding-bottom:35px;
 	width: 50%;
 	text-align: center;
-	margin: 50px auto;
+	margin: 10px auto;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
 
-.aboutme {
-	margin: 20px;
+.form-input {
+	color:#3c3c3c;
+  	font-weight:500;
+	border-radius: 0;
+	line-height: 20px;
+	background-color: #fbfbfb;
+	padding: 10px 10px 10px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 3px solid rgba(0,0,0,0);
+}
+
+#sendername {
+	background-image: url("name.svg");
+	background-size: 25px 25px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email {
+	background-image: url("email.svg");
+	background-size: 25px 25px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#emailconfirm {
+	background-image: url("checkmark.png");
+	background-size: 25px 25px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#message {
+	background-image: url("message.svg");
+	background-size: 25px 25px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.home {
+	margin: 20px auto;
+	width: 50%;
+}
+
+#home-img {
+	float: left;
+	width: 30%;
+	margin-right: 10%;
+	margin-bottom: 15%;
+}
+
+#home-text {
+	text-align: left;
+	float: left;
+	width: 60%;
+	margin-bottom: 15%;
 }
 
 #aboutme-img {
-	float: left;
-	width: 49%;
-	margin-right: 2%;
-	margin-bottom: 10%;
-}
-
-#aboutme-text {
-	float: left;
-	width: 49%;
-	margin-bottom: 10%;
+	width: 50%;
 }
 
 
@@ -123,11 +192,46 @@ a.back-to-top {
 	display: none;
 }
 
+.lightbox-photogallery {
+	margin: 0 auto;
+	width: 90%;
+}
+
 .lightbox-image-link img {
 	width: 30%;
-	margin: 0 auto;
-	padding: 10px;
+	margin: 10px;
+}
 
+#messagelink {
+	font-family: Courier;
+	color:#3F3F3F;
+}
+
+#messagelink:hover {
+	background-color: #3F3F3F;
+	color: white;
+	padding: 0 5px;
+}
+
+#artdescription {
+	margin: 0 auto;
+	width: 90%;
+	padding: 10px;
+	text-align: center;
+}
+
+#lightbox-instructions {
+	margin: 0 auto;
+	width: 90%;
+	padding: 10px;
+	text-align: center;
+}
+
+#work {
+	margin: 10px auto;
+	width: 55%;
+	padding: 10px;
+	text-align: center;
 }
 
 footer {
@@ -156,6 +260,7 @@ footer p {
     height: 20%;
     position: inline;
 }
+
 
 /* skill bar */
 
@@ -253,6 +358,7 @@ h1 {
 	border-radius: 50%;
 	width: 25%;
 	height: 25%;
+	margin: 30px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
 
@@ -263,24 +369,29 @@ h1 {
 	margin: 30px;
 }
 
-#aboutme-text {
+#home-text {
 	display: block;
-	width: 50%;
+	width: 90%;
 	margin: 2% auto;
 	float: none;
 	
 }
 
-#aboutme-img {
+.home {
+	margin: 20px auto;
+	width: 60%;
+}
+
+#home-img {
 	display: block;
-	width: 50%;
+	width: 90%;
 	margin: 2% auto;
 	float: none;
 }
 
 #myCarousel {
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 	width: 50%;
 	height: 50%;
 }
@@ -303,6 +414,22 @@ h1 {
 
 .lightbox-photogallery {
 	display: none;
+}
+
+#lightbox-instructions {
+	display: none;
+}
+
+.skillbar {
+	width: 70%;
+}
+
+h3 {
+	width: 70%;
+}
+
+#work {
+	width: 75%;
 }
 
 footer {
@@ -352,7 +479,7 @@ h1 {
 	border-radius: 50%;
 	width: 35%;
 	height: 35%;
-	margin: 5%;
+	margin: 3%;
 	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
 
@@ -362,7 +489,13 @@ h1 {
 	margin: 30px;
 }
 
-#aboutme-text {
+
+.home {
+	margin: 20px auto;
+	width: 100%;
+}
+
+#home-text {
 	display: block;
 	width: 75%;
 	margin: 2% auto;
@@ -370,7 +503,7 @@ h1 {
 	
 }
 
-#aboutme-img {
+#home-img {
 	display: block;
 	width: 75%;
 	margin: 2% auto;
@@ -379,7 +512,7 @@ h1 {
 
 #myCarousel {
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 	width: 80%;
 	height: 80%;
 }
@@ -404,6 +537,13 @@ h1 {
 	display: none;
 }
 
+#lightbox-instructions {
+	display: none;
+}
+
+form {
+	width: 80%;
+}
 
 footer {
 	text-align: center;
