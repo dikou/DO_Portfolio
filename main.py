@@ -28,11 +28,11 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 class ContactHandler(webapp2.RequestHandler):
     def get(self):
         template = JINJA_ENVIRONMENT.get_template('templates%s' % '/form')
-        self.response.write(template.render({'title': 'CONTACT'}))
+        self.response.write(template.render({'title': 'Contact'}))
 
     def post(self):
         template = JINJA_ENVIRONMENT.get_template('templates%s' % '/contact')
-        self.response.write(template.render({'title': 'CONTACT'}))
+        self.response.write(template.render({'title': 'Contact'}))
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
@@ -40,16 +40,16 @@ class MainHandler(webapp2.RequestHandler):
             path = self.request.path
             template = JINJA_ENVIRONMENT.get_template('templates%s' % path)
             if path == "/index":
-                self.response.write(template.render({'title': 'HOME'}))
+                self.response.write(template.render({'title': 'Home'}))
             elif path == "/about":
-                self.response.write(template.render({'title': 'ABOUT'}))
+                self.response.write(template.render({'title': 'About'}))
             elif path == "/artwork":
-                self.response.write(template.render({'title': 'ARTWORK'}))
+                self.response.write(template.render({'title': 'Artwork'}))
             elif path == "/experience":
-                self.response.write(template.render({'title': 'EXPERIENCE'}))
+                self.response.write(template.render({'title': 'Experience'}))
         except:
             template = JINJA_ENVIRONMENT.get_template('templates/index')
-            self.response.write(template.render({'title': 'HOME'}))
+            self.response.write(template.render({'title': 'Home'}))
 
 
 app = webapp2.WSGIApplication([
