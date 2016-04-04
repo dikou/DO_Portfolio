@@ -3,6 +3,6 @@
 
 {% block content %}
       <p>
-      Success!
+      Thank you for reaching out!  You'll hear from me soon.
       </p>
 {% endblock %}
