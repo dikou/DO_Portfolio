@@ -5,11 +5,16 @@
 	
 	<div id="aboutme">
 	<img id="aboutme-img" src="static/home.jpg" alt="black and white photo from NYC trip">
-	<p id="aboutme-text">
-		I was born in the college town of Gainesville where I grew up with kids who had parents trying to get their PhDs.  Once I finished elementary school, I moved to Saint Augustine, the oldest city in America.  Having lived in sleepy suburbs filled with retirees for so long, I wanted to get out of Florida for my four years in college.  So I came to Ann Arbor to meet new types of people and experience living in snow. 
-		</br>
-		I like creating things but couldn't tell you how I plan to make that desire into a career at this point.    
-		 
-	</p>
+	<p class="aboutme-text">
+		I was born in the college town of Gainesville where I grew up with kids who had parents trying to get their PhDs.  Once I finished elementary school, I moved to Saint Augustine, the oldest city in America.  Having lived in sleepy suburbs filled with retirees for so long, I wanted to get out of Florida for my four years in college.  So I came to Ann Arbor to meet new types of people and experience living in snow. I'm hoping to live in a fast-paced metropolitan city when I graduate.  Despite the unforutunate fact that I experience nausea on long plane rides (6+ hours), I enjoy travelling to new places. Here are places I want to visit:</p>
+		
+			<ul class="travel">
+			<li>California</li> 
+			<li>Dallas & Austin, Texas</li>
+			<li>Seattle, Washington</li>
+			<li>Chicago, Illinois</li>
+			<li>Europe</li>
+			</ul> 
+
 	</div>
 	{% endblock %}
